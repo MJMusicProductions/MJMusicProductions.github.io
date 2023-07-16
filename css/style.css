@@ -349,11 +349,20 @@ button {
 /** banner section **/
 
 .full_bg {
-     background: url(../images/Mário-Jorge-agenda-1.jpg);
+     
+     background: url(../images/Mário-Jorge-home.png);
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
      height: 100vh;
+     /*
+     background: url(../images/music_notes_bg.png);
+     background-size: 100% 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     padding-top: 90px;
+     position: relative;
+     */
 }
 
 
@@ -415,7 +424,9 @@ button {
 /** about section **/
 
 .about {
+     /*
      background: url(../images/music_notes_bg.png);
+     */
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
@@ -977,7 +988,8 @@ ul.social_icon li a i:hover {
      padding: 0;
      font-size: 63px;
      line-height: 70px;
-     color: #fff;
+     color: #183661;
+
      font-weight: bold;
      text-align: left;
 }
