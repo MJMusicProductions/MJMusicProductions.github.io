@@ -351,19 +351,25 @@ button {
 .full_bg {
      
      background: url(../images/Mário-Jorge-home.png);
-     background-size: cover;
+     background-size: auto;
      background-position: center;
      background-repeat: no-repeat;
      height: 100vh;
+     
+     
      /*
      background: url(../images/music_notes_bg.png);
      background-size: 100% 100%;
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
      padding-top: 90px;
      position: relative;
+     
      */
 }
+
+
 
 
 /** end banner section **/
